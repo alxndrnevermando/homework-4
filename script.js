@@ -8,15 +8,6 @@ var thirdQuestion = document.getElementById("btn2");
 var fourthQuestion = document.getElementById("btn3");
 var score = 0;
 
-var time = 100;
-
-var myCount = setInterval(function() {
-    if(time<=0) {
-        clearInterval(downloadTimer);
-    }
-    document.getElementById("demo").innerHTML = time + " seconds remaining";
-    time--;
-}, 1000);
 
 
 const questionsArray = [
@@ -51,6 +42,14 @@ function startQuiz() {
     questionElement.classList.remove("hide");
 
     setNextQuestion();
+    var time = 100;
+    var myCount = setInterval(function() {
+    if(time<=0) {
+        clearInterval(downloadTimer);
+    }
+    document.getElementById("demo").innerHTML = time + " seconds remaining";
+    time--;
+}, 1000);
 };
 
 function setNextQuestion() {
@@ -70,4 +69,6 @@ function selectAnswer() {
             console.log("is this working")
         }
 };
+
+
 
