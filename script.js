@@ -42,14 +42,14 @@ function startQuiz() {
     questionElement.classList.remove("hide");
 
     setNextQuestion();
-    var time = 100;
+    var time = 1;
     var myCount = setInterval(function() {
     if(time<=0) {
-        clearInterval(downloadTimer);
-    }
-    document.getElementById("demo").innerHTML = time + " seconds remaining";
-    time--;
-}, 1000);
+        clearInterval(myCount);
+        } else
+        document.getElementById("demo").innerHTML = time + " seconds remaining";
+        time--;
+    }, 1000);
 };
 
 function setNextQuestion() {
@@ -69,6 +69,3 @@ function selectAnswer() {
             console.log("is this working")
         }
 };
-
-
-
