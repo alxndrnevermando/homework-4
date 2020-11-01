@@ -1,92 +1,36 @@
 # homework-4
-# 04 Web APIs: Code Quiz
 
-## Your Task
+I really struggled with this one. I look forward to growing as a student, and challenging projects like the one we had for homework exemplifies the need to keep working and studying. I did not complete this project entirely, I was unable to get it to function, and was not able to get it perform most of the requirements of the homework. But, I can say that I still am impressed with what I was able to come up with, and am sure that with some guidance, I could be doing a lot better and more impressive work.
 
-As you proceed in your journey to becoming a full-stack web developer, it’s likely that you’ll be asked to complete a coding assessment, perhaps as part of an interview process. A typical coding assessment is a combination of multiple-choice questions and interactive coding challenges. 
+## Motivation
 
-To help you become familiar with these tests and give you a chance to apply the skills from this module, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. This week’s coursework will teach you all the skills you need to succeed in this assignment.
+I knew this was going to be tough, so I'm just glad I was able to get an understnding of what the assignment required, even if I did not fully achieve what was assigned.
 
+## Screenshot
 
-## User Story
+<img width="2560" alt="Screen Shot 2020-10-31 at 11 48 05 PM" src="https://user-images.githubusercontent.com/71421032/97796783-93ffdb00-1bd3-11eb-9335-23f48356e5c7.png">
 
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
+## Features
 
+When you hit the start button, the timer starts, and the first questions and multiple choice answers are generated.
 
-## Acceptance Criteria
-
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and score
-```
+## Installation
+Pretty simple to deploy this, simply cut and paste the url into you preferred browser. No need to download.
 
 
-## Mock-Up
+## Contribute
 
-The following animation demonstrates the application functionality:
+If you want to make some contributions, feel free to go the following github pages. Link to my repo: (https://github.com/alxndrnevermando/homework-1.github.io.git)
 
-![code quiz](./Assets/04-web-apis-homework-demo.gif)
+## Credits
+Stack Overflow, YouTube, W3 Schools and Google, were very helpful.
 
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
+I want to thank Akash Nimare's blogpost about writing a good readme for helping with this part of the assignment. Link to her post (https://medium.com/@meakaakka/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3). I will credit her for as long as I use this readme.me format.
 
 
-## Review
+## License
 
-You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+MIT © [alxndrnevermando]
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
