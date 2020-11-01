@@ -8,6 +8,17 @@ var thirdQuestion = document.getElementById("btn2");
 var fourthQuestion = document.getElementById("btn3");
 var score = 0;
 
+var time = 100;
+
+var myCount = setInterval(function() {
+    if(time<=0) {
+        clearInterval(downloadTimer);
+    }
+    document.getElementById("demo").innerHTML = time + " seconds remaining";
+    time--;
+}, 1000);
+
+
 const questionsArray = [
     {
         question: "1. What does HTML stand for?",
@@ -29,6 +40,7 @@ const questionsArray = [
 //console.log(questionsArray[0].question);
 
 start.addEventListener("click", startQuiz);
+answerChoices.addEventListener("click", selectAnswer);
 
 //this function is what begins when you press start
 function startQuiz() {
@@ -37,6 +49,7 @@ function startQuiz() {
     start.classList.add('hide');
     //Makes question and buttons reappear
     questionElement.classList.remove("hide");
+
     setNextQuestion();
 };
 
@@ -46,13 +59,15 @@ function setNextQuestion() {
     secondQuestion.innerText = questionsArray[0].choices[1];
     thirdQuestion.innerText = questionsArray[0].choices[2];
     fourthQuestion.innerText = questionsArray[0].choices[3];
-    var userAnswer = answerChoices.addEventListener("click", selectAnswer);
+ 
     
     selectAnswer();
 };
 
 function selectAnswer() {
-        console.log(userAnswer);
-        console.log(questionsArray[0].correctAnswer)
+        var response = InputEvent;
+        if(answerChoices == questionsArray[0].question[0].correctAnswer) {
+            console.log("is this working")
+        }
 };
 
