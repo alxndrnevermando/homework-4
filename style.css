@@ -10,7 +10,7 @@ body {
 
 }
 
-div {
+.card {
     width: 800px;
     border-radius: 5px;
     padding: 10px;
